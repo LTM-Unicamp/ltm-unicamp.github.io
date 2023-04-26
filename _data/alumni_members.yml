@@ -1,16 +1,56 @@
 - name: Rodrigo Batista Tomassini
   photo: Tommasini.jpg
-  duration: Former PhD candidate in the LTM
-  info: Doctor in Mechanical Engineering and Lead Engineer at Marine Power Systems Ltd (MPS)
+  info: Former PhD student in the LTM
   email: rbtommasini@fem.unicamp.br
-  Lattes: http://lattes.cnpq.br/4585434417622335
+  lattes: http://lattes.cnpq.br/4585434417622335
   number_educ: 0
 
 - name: Rodrigo Lima Pereira
   photo: RodrigoPereira.jpg
-  duration: Former PhD candidate in the LTM
-  info: Doctor in Mechanical Engineering
+  info: Former PhD student in the LTM
   email: rodrigolp17@gmail.com
-  Lattes: http://lattes.cnpq.br/8648415987292827
+  lattes: http://lattes.cnpq.br/8648415987292827
   number_educ: 0
+
+- name: Evandro Souto Carobino
+  photo: EvandroSolto.jpg
+  info: Former MSc student in the LTM
+  email: evandrocarobino@gmail.com
+  lattes: http://lattes.cnpq.br/1726158134498397
+  number_educ: 0
+
+- name: Luis Felipe de Oliveira Lima
+  photo: LuisFelipe.jpg
+  info: Former MSc student in the LTM
+  email: limaoliveiraluis@gmail.com
+  lattes: http://lattes.cnpq.br/2011541692022012
+  number_educ: 0
+
+- name: Felipe Miranda Azevedo 
+  photo: FelipeMiranda.jpg
+  info: Former MSc student in the LTM
+  email: faze.fma@gmail.com
+  lattes: http://lattes.cnpq.br/0059967476882034
+  number_educ: 0
+
+- name: Edgar Andres Patino Narino
+  photo: EdgarPatino.jpg
+  info: Former Postdoctoral Researcher in the LTM
+  email: eapatinon@fem.unicamp.br
+  lattes: http://lattes.cnpq.br/3312020252378132
+  number_educ: 0
+
+- name: Débora Junqueira Fonseca
+  photo: DeboraFonseca.jpg
+  info: Former MSc student in the LTM
+  email: deborafonseca@live.com
+  lattes: http://lattes.cnpq.br/8083213601689126
+  number_educ: 0
+
+#- name: 
+#  photo: 
+#  info: 
+#  email: 
+#  Lattes: 
+#  number_educ: 0
 

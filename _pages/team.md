@@ -79,7 +79,7 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
 {% endif %}
 
 
-
+---
 ## Alumni
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
@@ -93,7 +93,10 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/ltm_team/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
+  <i>
+    {{ member.info }} <br>
+    <a href="{{ member.lattes }}">Lattes</a> | <{{ member.email }}> <br>
+  </i>
   <ul style="overflow: hidden">
 
   </ul>
