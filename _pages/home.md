@@ -1,12 +1,12 @@
 ---
-title: "Allan Lab - Home"
+title: "LTM - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "LTM @ UNICAMP."
 sitemap: false
 permalink: /
 ---
 
-We are a dynamic research group at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl). Our aim is to explore and understand [quantum materials](http://condensedconcepts.blogspot.nl/2013/05/what-is-quantum-matter.html), including strange metals, high-temperature superconductors, and quantum critical electron matter.
+The Laboratory of Topology Optimization and Multiphysics Analysis (LTM) is a research laboratory at the [School of Mechanical Engineering](https://www.fem.unicamp.br/index.php/pt-br/) of the [University of Campinas](https://www.unicamp.br/unicamp/) (UNICAMP). Our research is based on Structural Topology Optimization and Multiphysics/Multiscale Analysis, including studies on new numerical evolutionary methods and bio-inspired design strategies. Our team is composed of engineers and undergraduate students that investigate the following subjects: static and dynamic structural design methods, multiscale and periodic systems, vibroacoustics, poroelasticity, fluid-structure interactions, load dependent problems, fluid actuated systems, nonlinear materials models, metasurfaces/metamaterials, among others (see [Research](research)).
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -53,20 +53,13 @@ We are a dynamic research group at the [Leiden Institute of Physics](http://www.
 </div>
 
 
+In order to conduct our studies and investigations we are partially funded by the following organizations: [Coordination of Superior Level Staff Improvement](https://www.gov.br/capes/pt-br) (CAPES), [The National Council for Scientific and Technological Development](https://www.gov.br/cnpq/pt-br) (CNPq), [The São Paulo Research Foundation](https://fapesp.br/) (FAPESP) and [Petrobrás](https://petrobras.com.br/pt/). We are also part of the [Center for Computing in Engineering & Sciences](https://cces.unicamp.br/), being a world-class multidisciplinary research Center dedicated to advanced computational modeling in physical and chemical molecular sciences, computational mechanical engineering and materials, computational biology and bioinformatics, computational geophysics, and computer science. 
 
-
-To this end, we develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the  scientific questions we deem most important (see [Research](research)).
-
-We are located at Leiden University, the birthplace of superconductivity and home to Kamerlingh Onnes, Lorentz, Huygens, Einstein, de Sitter, and others (see e.g. [the wall of signatures from Ehrenfest lecturers](https://www.lorentz.leidenuniv.nl/history/colloquium/muur_heel.html)). We exchange ideas and work with our neighbors from [Quantum Matter & Optics](http://www.physics.leidenuniv.nl/qo-home), as well as with the colleagues from our [world-class theory section](https://www.lorentz.leidenuniv.nl).
-
- **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
-
-
-We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi talent scheme](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme) and the [Frontiers in Nanoscience program](https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront)), and from an [ERC starting grant](https://erc.europa.eu/funding/starting-grants).
-
+<!--
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
 </figure>
+-->
