@@ -4,7 +4,16 @@
   email: rafael.ferro@ifes.edu.br
   lattes: http://lattes.cnpq.br/1421321717323203
   number_educ: 0
-  education1: 
+  education1: #Master ETHZ, Diplomarbeit with <a href="http://www.physik.uzh.ch/groups/osterwalder/">J Osterwalder</a>, University of Zurich
+  education2: #PhD St Andrews (while at Cornell University) with <a href="http://dpmc.unige.ch/gr_baumberger/index.html">Felix Baumberger</a> and <a href="http://davisgroup.lassp.cornell.edu/">JC Davis</a>
+  education3: #Postdoc Cornell
+  education4: #<a href="http://www.ethfellows.ethz.ch/">ETH fellow</a> at ETHZ with <a href="https://qudev.phys.ethz.ch">Andreas Wallraff</a>
+  education5: #<a href="https://www.universiteitleiden.nl/en/news/2017/07/milan-allan-wins-bryan-r.-coles-prize">Bryan R. Coles Prize 2017</a>
+  number_socials: 0
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
 
 - name: Walter Silveira
   photo: WalterSilveira.jpg
@@ -13,6 +22,14 @@
   lattes: 
   number_educ: 0
   education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
 
 - name: Hugo Sakai Idagawa
   photo: HugoIdagawa.gif
@@ -21,6 +38,14 @@
   lattes: http://lattes.cnpq.br/6309975773763684
   number_educ: 0
   education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV: 
 
 - name: Leonardo Machado Antonio
   photo: LeonardoMachado.jpg
@@ -29,6 +54,14 @@
   lattes: http://lattes.cnpq.br/2571939387021155
   number_educ: 0
   education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
 
 - name: Marcio da Silva Moura
   photo: MarcioMoura.jpg
@@ -37,6 +70,14 @@
   lattes: http://lattes.cnpq.br/2249032850096712
   number_educ: 0
   education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
 
 
 #- name: 
@@ -44,5 +85,13 @@
 #  info: 
 #  email: 
 #  Lattes: 
-#  number_educ: 0
-
+#  number_educ: 0         # # Pode ir de 1 até 5 com informações de onde fez graduação, mestrado e doutorado
+#  education1: 
+#  education2: 
+#  education3: 
+#  education4: 
+#  education5: 
+#  number_socials: 0      # Pode ir de 1 até 3 (orcid, linkedin e CV em ordem)   
+#  orcid:
+#  linkedin:
+#  CV:

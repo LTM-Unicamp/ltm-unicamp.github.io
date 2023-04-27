@@ -4,6 +4,15 @@
   email: rbtommasini@fem.unicamp.br
   lattes: http://lattes.cnpq.br/4585434417622335
   number_educ: 0
+  education1: #Master ETHZ, Diplomarbeit with <a href="http://www.physik.uzh.ch/groups/osterwalder/">J Osterwalder</a>, University of Zurich
+  education2: #PhD St Andrews (while at Cornell University) with <a href="http://dpmc.unige.ch/gr_baumberger/index.html">Felix Baumberger</a> and <a href="http://davisgroup.lassp.cornell.edu/">JC Davis</a>
+  education3: #Postdoc Cornell
+  education4: #<a href="http://www.ethfellows.ethz.ch/">ETH fellow</a> at ETHZ with <a href="https://qudev.phys.ethz.ch">Andreas Wallraff</a>
+  education5: #<a href="https://www.universiteitleiden.nl/en/news/2017/07/milan-allan-wins-bryan-r.-coles-prize">Bryan R. Coles Prize 2017</a>
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
 
 - name: Rodrigo Lima Pereira
   photo: RodrigoPereira.jpg
@@ -11,6 +20,15 @@
   email: rodrigolp17@gmail.com
   lattes: http://lattes.cnpq.br/8648415987292827
   number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 3
+  orcid: https://orcid.org/0000-0002-0442-4666
+  linkedin: https://www.linkedin.com/in/rodrigo-lima-pereira-148286a2/
+  cv: RodrigoCV_2023.pdf
 
 - name: Evandro Souto Carobino
   photo: EvandroSolto.jpg
@@ -18,6 +36,15 @@
   email: evandrocarobino@gmail.com
   lattes: http://lattes.cnpq.br/1726158134498397
   number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
 
 - name: Luis Felipe de Oliveira Lima
   photo: LuisFelipe.jpg
@@ -25,6 +52,15 @@
   email: limaoliveiraluis@gmail.com
   lattes: http://lattes.cnpq.br/2011541692022012
   number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
 
 - name: Felipe Miranda Azevedo 
   photo: FelipeMiranda.jpg
@@ -32,6 +68,15 @@
   email: faze.fma@gmail.com
   lattes: http://lattes.cnpq.br/0059967476882034
   number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
 
 - name: Edgar Andres Patino Narino
   photo: EdgarPatino.jpg
@@ -39,6 +84,15 @@
   email: eapatinon@fem.unicamp.br
   lattes: http://lattes.cnpq.br/3312020252378132
   number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
 
 - name: Débora Junqueira Fonseca
   photo: DeboraFonseca.jpg
@@ -46,11 +100,29 @@
   email: deborafonseca@live.com
   lattes: http://lattes.cnpq.br/8083213601689126
   number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
 
 #- name: 
 #  photo: 
 #  info: 
 #  email: 
 #  Lattes: 
-#  number_educ: 0
+#  number_educ: 0         # # Pode ir de 1 até 5 com informações de onde fez graduação, mestrado e doutorado
+#  education1: 
+#  education2: 
+#  education3: 
+#  education4: 
+#  education5: 
+#  number_socials: 0      # Pode ir de 1 até 3 (orcid, linkedin e CV em ordem)   
+#  orcid:
+#  linkedin:
+#  CV:
 

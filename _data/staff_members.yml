@@ -1,0 +1,192 @@
+- name: Renato Pavanello
+  photo: RenatoPavanello.jpg
+  info: Full professor
+  email: pava@fem.unicamp.br
+  lattes: http://lattes.cnpq.br/1014571239084005
+  number_educ: 0
+  education1: #Master ETHZ, Diplomarbeit with <a href="http://www.physik.uzh.ch/groups/osterwalder/">J Osterwalder</a>, University of Zurich
+  education2: #PhD St Andrews (while at Cornell University) with <a href="http://dpmc.unige.ch/gr_baumberger/index.html">Felix Baumberger</a> and <a href="http://davisgroup.lassp.cornell.edu/">JC Davis</a>
+  education3: #Postdoc Cornell
+  education4: #<a href="http://www.ethfellows.ethz.ch/">ETH fellow</a> at ETHZ with <a href="https://qudev.phys.ethz.ch">Andreas Wallraff</a>
+  education5: #<a href="https://www.universiteitleiden.nl/en/news/2017/07/milan-allan-wins-bryan-r.-coles-prize">Bryan R. Coles Prize 2017</a>
+  number_socials: 2
+  orcid: https://orcid.org/0000-0002-3883-1411
+  linkedin: https://www.linkedin.com/in/renato-pavanello-ab6b98245/
+  CV:
+
+- name: William Martins Vicente
+  photo: WilliamVicente.jpg
+  info: Associate Professor
+  email: william.vicente@feagri.unicamp.br
+  lattes: http://lattes.cnpq.br/5934869837711816
+  number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
+
+- name: Gisele Lucas Garcez
+  photo: GiseleGarcez.jpg
+  info: Postdoctoral Researcher
+  email: gisele.garcez@gmail.com
+  lattes: http://lattes.cnpq.br/4221210847657452
+  number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
+
+- name: Lidy Marcela Anaya Jaimes
+  photo: LidyMarcela.jpg
+  info: PhD student
+  email: lidy@fem.unicamp.br
+  lattes: http://lattes.cnpq.br/6461965167591664
+  number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
+
+- name: Daniel Candeloro Cunha
+  photo: DanielCunha.jpg
+  info: PhD student
+  email: cunha@fem.unicamp.br
+  lattes: http://lattes.cnpq.br/7885566840094835
+  number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
+
+- name: Heitor Nigro Lopes
+  photo: HeitorLopes.jpg
+  info: PhD student
+  email: lopes@fem.unicamp.br
+  lattes: http://lattes.cnpq.br/1477667441597329
+  number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
+
+- name: Breno Vicenzo Almeida
+  photo: BrenoAlmeida.jpg
+  info: PhD student
+  email: balmeida@fem.unicamp.br
+  lattes: http://lattes.cnpq.br/5065278939710075
+  number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5:  
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
+
+- name: Antônio Vinicius Garcia Campos
+  photo: ViniciusCampos.jpg
+  info: PhD student
+  email: antviniciuscampos@gmail.com
+  lattes: http://lattes.cnpq.br/8098900392634122
+  number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
+
+- name: Claudia Marcela Perez Madrid
+  photo: ClaudiaPerez.jpg
+  info: PhD student
+  email: clauperezma@gmail.com
+  lattes: http://lattes.cnpq.br/2537578219782725
+  number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
+
+- name: Vitor Hugo
+  photo: VitorHugo.jpg
+  info: MSc student
+  email: 
+  lattes: 
+  number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
+
+- name: João Neto
+  photo: dummy.png
+  info: MSc student
+  email: 
+  lattes: 
+  number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
+  CV:
+
+
+#- name: 
+#  photo: 
+#  info: 
+#  email: 
+#  Lattes: 
+#  number_educ: 0         # # Pode ir de 1 até 5 com informações de onde fez graduação, mestrado e doutorado
+#  education1: 
+#  education2: 
+#  education3: 
+#  education4: 
+#  education5: 
+#  number_socials: 0      # Pode ir de 1 até 3 (orcid, linkedin e CV em ordem)   
+#  orcid:
+#  linkedin:
+#  CV:

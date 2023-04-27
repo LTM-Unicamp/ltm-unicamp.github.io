@@ -11,7 +11,7 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
 
 ## Staff
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{% for member in site.data.staff_members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -26,42 +26,42 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
     {{ member.info }} <br>
     <a href="{{ member.lattes }}">Lattes</a> | <{{ member.email }}> <br>
   </i>
+  <ul>
+  {% if member.number_socials == 0 %}
+     
+  {% elsif member.number_socials == 1 %}
+    <i><a href="{{ member.orcid }}">ORCID</a></i>
+  {% elsif member.number_socials == 2 %}
+    <i><a href="{{ member.orcid }}">ORCID</a></i> | <i><a href="{{ member.linkedin }}">LinkedIn</a></i> <br>
+  {% elsif member.number_socials == 3 %}
+    <i><a href="{{ member.orcid }}">ORCID</a></i> | <i><a href="{{ member.linkedin }}">LinkedIn</a></i> 
+    | <i><a href="/curriculum/{{member.cv}}">CV</a></i> <br> 
+  {% endif %}
+  </ul>
   <ul style="overflow: hidden">
-
   {% if member.number_educ == 0 %}
   
+  {% elsif member.number_educ == 1 %}
+    <li> {{ member.education1 }} </li>
+  {% elsif member.number_educ == 2 %}
+    <li> {{ member.education1 }} </li>
+    <li> {{ member.education2 }} </li>
+  {% elsif member.number_educ == 3 %}
+    <li> {{ member.education1 }} </li>
+    <li> {{ member.education2 }} </li>
+    <li> {{ member.education3 }} </li>
+  {% elsif member.number_educ == 4 %}
+    <li> {{ member.education1 }} </li>
+    <li> {{ member.education2 }} </li>
+    <li> {{ member.education3 }} </li>
+    <li> {{ member.education4 }} </li>
+  {% elsif member.number_educ == 5 %}
+    <li> {{ member.education1 }} </li>
+    <li> {{ member.education2 }} </li>
+    <li> {{ member.education3 }} </li>
+    <li> {{ member.education4 }} </li>
+    <li> {{ member.education5 }} </li>
   {% endif %}
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
   </ul>
 </div>
 
@@ -97,9 +97,44 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
     {{ member.info }} <br>
     <a href="{{ member.lattes }}">Lattes</a> | <{{ member.email }}> <br>
   </i>
-  <ul style="overflow: hidden">
-
+  <ul>
+  {% if member.number_socials == 0 %}
+     
+  {% elsif member.number_socials == 1 %}
+    <i><a href="{{ member.orcid }}">ORCID</a></i>
+  {% elsif member.number_socials == 2 %}
+    <i><a href="{{ member.orcid }}">ORCID</a></i> | <i><a href="{{ member.linkedin }}">LinkedIn</a></i> <br>
+  {% elsif member.number_socials == 3 %}
+    <i><a href="{{ member.orcid }}">ORCID</a></i> | <i><a href="{{ member.linkedin }}">LinkedIn</a></i> 
+    | <i><a href="/curriculum/{{member.cv}}">CV</a></i> <br> 
+  {% endif %}
   </ul>
+  <ul style="overflow: hidden">
+  {% if member.number_educ == 0 %}
+  
+  {% elsif member.number_educ == 1 %}
+    <li> {{ member.education1 }} </li>
+  {% elsif member.number_educ == 2 %}
+    <li> {{ member.education1 }} </li>
+    <li> {{ member.education2 }} </li>
+  {% elsif member.number_educ == 3 %}
+    <li> {{ member.education1 }} </li>
+    <li> {{ member.education2 }} </li>
+    <li> {{ member.education3 }} </li>
+  {% elsif member.number_educ == 4 %}
+    <li> {{ member.education1 }} </li>
+    <li> {{ member.education2 }} </li>
+    <li> {{ member.education3 }} </li>
+    <li> {{ member.education4 }} </li>
+  {% elsif member.number_educ == 5 %}
+    <li> {{ member.education1 }} </li>
+    <li> {{ member.education2 }} </li>
+    <li> {{ member.education3 }} </li>
+    <li> {{ member.education4 }} </li>
+    <li> {{ member.education5 }} </li>
+  {% endif %}
+  </ul>
+
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -135,8 +170,42 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
     {{ member.info }} <br>
     <a href="{{ member.lattes }}">Lattes</a> | <{{ member.email }}> <br>
   </i>
+  <ul>
+  {% if member.number_socials == 0 %}
+     
+  {% elsif member.number_socials == 1 %}
+    <i><a href="{{ member.orcid }}">ORCID</a></i>
+  {% elsif member.number_socials == 2 %}
+    <i><a href="{{ member.orcid }}">ORCID</a></i> | <i><a href="{{ member.linkedin }}">LinkedIn</a></i> <br>
+  {% elsif member.number_socials == 3 %}
+    <i><a href="{{ member.orcid }}">ORCID</a></i> | <i><a href="{{ member.linkedin }}">LinkedIn</a></i> 
+    | <i><a href="/curriculum/{{member.cv}}">CV</a></i> <br> 
+  {% endif %}
+  </ul>
   <ul style="overflow: hidden">
-
+  {% if member.number_educ == 0 %}
+  
+  {% elsif member.number_educ == 1 %}
+    <li> {{ member.education1 }} </li>
+  {% elsif member.number_educ == 2 %}
+    <li> {{ member.education1 }} </li>
+    <li> {{ member.education2 }} </li>
+  {% elsif member.number_educ == 3 %}
+    <li> {{ member.education1 }} </li>
+    <li> {{ member.education2 }} </li>
+    <li> {{ member.education3 }} </li>
+  {% elsif member.number_educ == 4 %}
+    <li> {{ member.education1 }} </li>
+    <li> {{ member.education2 }} </li>
+    <li> {{ member.education3 }} </li>
+    <li> {{ member.education4 }} </li>
+  {% elsif member.number_educ == 5 %}
+    <li> {{ member.education1 }} </li>
+    <li> {{ member.education2 }} </li>
+    <li> {{ member.education3 }} </li>
+    <li> {{ member.education4 }} </li>
+    <li> {{ member.education5 }} </li>
+  {% endif %}
   </ul>
 </div>
 
