@@ -8,7 +8,7 @@ permalink: /publications/
 
 
 # Publications
-**At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications).** <!--All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).-->
+**The [full list of publications](#full-list-of-publications) is at the end of the page.** <!--All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).-->
 
 ## Group highlights
 {% assign number_printed = 0 %}
@@ -27,9 +27,9 @@ permalink: /publications/
   <img src="/images/ltm_publication/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
+  <p> Published in {{ publi.journal }}</p>
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
+  <p class="text-danger"><strong> {{ publi.news }}</strong></p>
  </div>
 </div>
 
@@ -61,6 +61,8 @@ permalink: /publications/
 {% for publi in site.data.publist %}
 
   {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+  <em>{{ publi.authors }} </em><br />
+  Published in {{publi.journal}}, {{publi.year}} <br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}

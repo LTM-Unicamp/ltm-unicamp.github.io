@@ -6,7 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-The Laboratory of Topology Optimization and Multiphysics Analysis (LTM) is a research laboratory at the [School of Mechanical Engineering](https://www.fem.unicamp.br/index.php/pt-br/) of the [University of Campinas](https://www.unicamp.br/unicamp/) (UNICAMP). Our research is based on Structural Topology Optimization and Multiphysics/Multiscale Analysis, including studies on new numerical evolutionary methods and bio-inspired design strategies. Our team is composed of engineers and undergraduate students that investigate the following subjects: static and dynamic structural design methods, multiscale and periodic systems, vibroacoustics, poroelasticity, fluid-structure interactions, load dependent problems, fluid actuated systems, nonlinear materials models, metasurfaces/metamaterials, among others (see [Research](research)).
+The Laboratory of Topology Optimization and Multiphysics Analysis (LTM) is a research laboratory at the [School of Mechanical Engineering](https://www.fem.unicamp.br/index.php/pt-br/) of the [University of Campinas](https://www.unicamp.br/unicamp/) (UNICAMP). 
+
+Our research is based on Structural Topology Optimization and Multiphysics/Multiscale Analysis, including studies on new numerical evolutionary methods and bio-inspired design strategies. Our team is composed of engineers and undergraduate students that investigate the following subjects: static and dynamic structural design methods, multiscale and periodic systems, vibroacoustics, poroelasticity, fluid-structure interactions, load dependent problems, fluid actuated systems, nonlinear materials models, metasurfaces/metamaterials, among others (see [Research](research)).
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
