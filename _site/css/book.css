@@ -7575,24 +7575,62 @@ pubtit {
   max-width: 1000px; /* or 950px */
 }
 
-/* Left navigation bar */
-p.byline {
-  text-align: left;
-  font-size: 18px;
-  line-height: 36px;
-  margin-top: -24px;
-  margin-bottom: 48px;
+/*-----------------------------------------------------------------------------------------*/
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 300px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  /*background-color: #111; */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 70px;
+  margin-top: 30px;
+  margin-bottom: auto;
+  margin-left: 30px;
 }
 
-pubtit {
-  font-weight: bold;
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  /*font-size: 25px;
+  color: #818181;
+  display: block;*/
 }
 
-.container-fluid-right {
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #0a0909;
+}
+
+.container-fluid-book {
+  margin-left: 500px;
   margin-right: auto;
-  margin-left: auto;
-  max-width: 1000px; /* or 950px */
+  max-width: 1000px;
 }
+
+@media (width < 1300px) {
+  .sidenav {
+    width: 100px;
+  }
+  .sidenav button > span {
+    width: 100px;
+  }
+  .sidenav button > span > span {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .container-fluid-book {
+    transition: 0.5s;
+    margin-left: 160px;
+    margin-right: auto;
+  }
+}
+/*-----------------------------------------------------------------------------------------*
+
 
 /* Home, News */
 #newsid p {
@@ -7645,17 +7683,12 @@ pubtit {
 }
 
 /* Carousel */
-/*.carousel {
-    border-radius: 3px 3px 3px 3px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-*/
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  height: 250px;
-  width: auto;
+.carousel {
+  border-radius: 3px 3px 3px 3px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=book.css.map */

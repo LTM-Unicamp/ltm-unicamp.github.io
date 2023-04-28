@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+   <link rel="stylesheet" href="{{ "/css/book.css" | prepend: site.baseurl | prepend: site.url}}">
+   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+ <link rel="shortcut icon" type ="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/images/favicon.ico">
+ 
+ {% if jekyll.environment == 'production' %}
+ {% include analytics.html %}
+ {% endif %}
+</head>
+
+
+<body>
+    {% include header.html %}
+
+    <div class="container-fluid-book">
+      <div class="row">
+        {{ content }}
+      </div>
+
+
+      <!-- ----------------------------------------------------------  
+      <div class="sidenav">
+        
+        <p align=center>
+            <img src="/images/ltm_logos/LTM.png" width="80%">
+        </p>
+       
+        
+        <div class="nav-menu">
+    
+            <a href="#" class="list-group-item" data-parent="#nav-menu">Home</a>
+            <a href="#" class="list-group-item" data-parent="#nav-menu">About</a>
+             
+            <a href="{{ site.url }}{{ site.baseurl }}/images/favicon.ico" class="list-group-item" data-toggle="collapse" data-parent="#nav-menu">Item 3 <i class="fa fa-caret-down"></i></a>
+            <div class="collapse" id="demo3">
+                <a href="#SubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubMenu1"><ul>Subitem 1</ul><i class="fa fa-caret-down"></i></a>
+                <div class="collapse list-group-submenu" id="SubMenu1">
+                    <a href="#" class="list-group-item" data-parent="#SubMenu1"><ul><ul>Subitem 1 a</ul></ul></a>
+                    <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 2 b</a>
+                    <a href="#SubSubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubSubMenu1">Subitem 3 c <i class="fa fa-caret-down"></i></a>
+                    <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu1">
+                        <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 1</a>
+                        <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 2</a>
+                    </div>
+                    <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 4 d</a>
+                </div>  
+            </div>
+            
+        </div>
+        </ul>
+    </div>
+    ----------------------------------------------------------------------------------------------- -->
+</div>
+
+    {% include footer.html %}
+</body>
+
+</html>

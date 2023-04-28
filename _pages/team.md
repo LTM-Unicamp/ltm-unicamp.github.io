@@ -1,7 +1,7 @@
 ---
 title: "LTM - Team"
 layout: gridlay
-excerpt: "LTM: Team members"
+excerpt: "LTM -- Team"
 sitemap: false
 permalink: /team/
 ---

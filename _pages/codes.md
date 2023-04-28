@@ -1,17 +1,16 @@
 ---
 title: "LTM - Codes"
 layout: textlay
-excerpt: "Codes"
+excerpt: "LTM -- Codes"
 sitemap: false
 permalink: /codes/
 ---
 
 # Codes
 
-Coming soon ...
+Coming soon...
 
 <!--
-
 
 **We are currently open for PhD and postdoc applications related to our ERC CoG grant. The positions are mostly related to the Electron Pair Microscopy projects.**
 
@@ -44,6 +43,5 @@ If you are interested in pursuing a Master degree at Leiden University, see [mas
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/DSC_0696.jpg" width="95%">
 </figure>
-
 
 -->

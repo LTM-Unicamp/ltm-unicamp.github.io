@@ -1,3 +1,15 @@
+#- title: "TITULO"
+#  image: Nome da sua foto que está na pasta images/ltm_team .extensão
+#  description: "Descrição aqui"
+#  authors: 
+#  link: 
+#    url: link do trabalho
+#    display: doi:doi-aqui
+#  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+#  journal: Nome do journal
+#  year: ano
+#  news: Caso queria alguma noticia, ela aparecerá em vermelho na janela de highlights
+
 - title: "Topology optimization of acoustic systems with a multiconstrained BESO approach"
   image: RodrigoPereira_ArtigoFinel.png
   description: "This work details a new acoustic topology optimization methodology with applications on the design of systems composed of rigid and porous materials. The Bi-directional Evolutionary Structural Optimization (BESO) algorithm is combined with the Virtual Temperature Method to minimize the occurrence of air cavities and rough surfaces inside rigid and porous domains, hence configuring a multiconstrained optimization approach."

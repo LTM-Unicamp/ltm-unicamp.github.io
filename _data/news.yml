@@ -1,14 +1,5 @@
+#- date: Coloque aqui a data
+#  headline: "Coloque aqui sua notícia"
+
 - date: 28. April 2023
-  headline: Welcome to the new LTM website!  
-
-
-
-
-#- date: 6. March 2023
-#  headline: How does superconductivity break down with high doping? Our new [paper in Nature Materials](https://www.nature.com/articles/s41563-023-01497-1) shines some light on the issue.
-
-#- date: 1. October 2021
-#  headline: Maialen will join us within a collaboration with the <a href="http://www.ingmarswart.nl">Swart Lab</a> -- welcome Maialen!
-  
-#- date: 17. March 2022
-#  headline: "Milan wins an ERC CoG grant! See [Leiden news](https://www.universiteitleiden.nl/en/news/2022/03/understanding-superconductivity-comes-closer-with-major-erc-grant-for-milan-allan). <img src='/images/newspic/erclogo.png' class='img-responsive' style='max-width: 192px' />"
+  headline: "Welcome to the new [LTM](https://ltm-unicamp.github.io/) website! <img src='/images/ltm_logos/LTM.png' class='img-responsive' style='max-width: 192px' />"
