@@ -1,49 +1,54 @@
-# Allan Lab Website
+# Bem-Vindos ao LTM!
 
-This is the website of our academic research group at Leiden University.
+Esse é o [repositório](https://github.com/LTM-Unicamp/ltm-unicamp.github.io) do site do Laboratório de Otimização Topológica e Análises Multifísicas, coordenado pelo professor [Renato Pavanello](http://lattes.cnpq.br/1014571239084005). Todos os alunos/pesquisadores são bem-vindos a colaborar com a melhoria e atualização deste repositório. Vale salientar que este site foi gerado utilizando [Jekyll](https://jekyllrb.com), mas também contém algumas partes em [Bootstrap](http://www.getbootstrap.com) e [Bootswatch](http://www.bootswatch.com) que vieram do template fornecido pelo grupo [Allan Lab](https://www.allanlab.org/). No entanto, a maioria dos arquivos que deverão ser alterados são escritos em [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) ou `.yml`.
 
-This website is powered by Jekyll and some Bootstrap, Bootwatch. We tried to make it simple yet adaptable, so that it is easy for you to use it as a template. Plese feel free to copy and modify for your own purposes.  You don't have to link to us or mention us (but of course we appreciate it).
+## Arquivos de dados
+Uma das pastas mais importantes deste repositório é a pasta [_data](../ltm-unicamp.github.io/_data/), na qual são encontrados os arquivos:
 
-# Use this website as a template for your academic research group
+- [staff_members.yml](../ltm-unicamp.github.io/_data/staff_members.yml): Dados dos membros atuais do grupo
+- [alumni_members.yml](../ltm-unicamp.github.io/_data/alumni_members.yml): Dados dos membros antigos do grupo (os veio)
+- [partime_members.yml](../ltm-unicamp.github.io/_data/partime_members.yml): Dados dos alunos especiais ou visitantes
+- [publist.yml](../ltm-unicamp.github.io/_data/publist.yml): Dados das publicações do grupo
+- [news.yml](../ltm-unicamp.github.io/_data/news.yml): Dados de notícias
 
-This website is powered by [Jekyll](https://jekyllrb.com) and uses some [Bootstrap](http://www.getbootstrap.com) and  [Bootswatch](http://www.bootswatch.com). We tried to make it simple yet adaptable, so that it is easy for you to re-use it for your purpose. 
+Em todos esses arquivos existem exemplos de dados [meus](http://lattes.cnpq.br/8648415987292827), de maneira a exemplificar como deve ser feita a atualização. Basta copiar o padrão e introduzir os seus próprios dados. Fiquem a vontade para atualizar sempre que necessário.
 
-### Getting started
-All pages are written in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for easy editing, and [Jekyll](https://jekyllrb.com) uses Liquid for the data-driven pages. The publicaion list, news items, and group members are stored as `.yml` data sheets (plain text) in the `_data folder`, so that one can update the website easily. The pages are in the `_pages` folder. Updating and maintaining is easy using [Github](http://www.github.com) (not worldpress-easy, but there are other advantages (see e.g. [this](https://www.taniarascia.com/make-a-static-website-with-jekyll/), or [this](http://www.webdesignerdepot.com/2015/11/jekyll-against-the-rest-of-the-world/)). [Jekyll](https://jekyllrb.com) takes all the markdown and data files, and creates beautiful `html` files in the `_site` folder.
+## Pasta de páginas
+Outra pasta importante é a [_pages](../ltm-unicamp.github.io/_pages/), na qual são encontrados os arquivos:
 
-If you never used [Jekyll](https://jekyllrb.com), read the [wikipedia article](https://en.wikipedia.org/wiki/Jekyll_(software)) article and check out [their website](https://jekyllrb.com). Same for [Github](http://www.github.com), which will host your first website draft. 
+**Não modificáveis**:
+- [404.md](../ltm-unicamp.github.io/_pages/404.md): Código que relata erro de navegação
+- [allnews.md](../ltm-unicamp.github.io/_pages/allnews.md): Códigos para as notícias -- modificar em: [news.yml](../ltm-unicamp.github.io/_data/news.yml)
+- [publications.md](../ltm-unicamp.github.io/_pages/publications.md): Códigos para as publicações -- modificar em: [publist.yml](../ltm-unicamp.github.io/_data/publist.yml)
+- [team.md](../ltm-unicamp.github.io/_pages/team.md): Códigos para os membros do grupo -- modificar em: [staff_members.yml](../ltm-unicamp.github.io/_data/staff_members.yml), [alumni_members.yml](../ltm-unicamp.github.io/_data/alumni_members.yml) ou [partime_members.yml](../ltm-unicamp.github.io/_data/partime_members.yml).
 
-Create and open a github account, go to [our repository](https://github.com/allanlab/allanlab), and click 'fork'. This is now your copy of the website, and you can change and adapt it as you want. You don't have to link to us or mention us (but of course we appreciate it). Then change the name of the repository to "your_username" and the name of the branch to "gh-pages".  Your website is now automatically published under *your_username.github.io/your_username/*. Except that it probably still looks like our website. 
+**Modificáveis**:
+- [codes.md](../ltm-unicamp.github.io/_pages/codes.md): Dados da página de códigos e tutoriais
+- [home.md](../ltm-unicamp.github.io/_pages/home.md): Dados da página inicial
+- [research.md](../ltm-unicamp.github.io/_pages/research.md): Dados da página de pesquisas
 
-To modify the webpage, you can either do everything on on github.com (go to a file, click "edit", then "commit", "push"), or install  [Jekyll](https://jekyllrb.com) on your computer and play with your local copy that you sync with the branch on github.com.  The former is much easier in the beginning, but a bit less convenient once you start rewriting everythint. To get it to work on your computer (and to learn a bit more about [Jekyll](https://jekyllrb.com)), [here](https://www.taniarascia.com/make-a-static-website-with-jekyll/) and [here](https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme) are tutorials on how to use it and how set it up locally. Also, consider using the [Github desktop app](http://www.desktop.github.com), I found it helpful.  
+Aqui também existem exemplos com [meus](http://lattes.cnpq.br/8648415987292827) dados. Fiquem a vontade para copiar o padrão e preencher com os seus próprios (*somente dos arquivos modificáveis!*).
 
-### Customization
-Now let's make this *your* website. 
+## Pasta de imagens
+A pasta [images](../ltm-unicamp.github.io/images/) guarda as fotos, vídeos e gifs do grupo. É divida em subpastas:
 
-First, go to the `news.ylm`, `publist.ylm`, and `team.ylm` files in the `_data` folder and insert your own data into the data fields. Watch out:  [Jekyll](https://jekyllrb.com) is quite strict about extra or missing spaces etc. Adhere to the format. In the beginning, test each change: commit, push, and check the published website.
-
-For publications, you can add a "1" in the highlight field, then it will be featured prominently. You can add important  news items (red, "news1"), and less important  news items (blue, "news2").
-
-For the news items, just keep adding them. The first 10 will be displayed on the 'home' page.
-
-For the `team.ylm` file
-
-Next, change the content of all files in the `_pages` folder.  To change the title in the homepage, go to `homelay.html` in the `_layout` folder.
-
-Lastly, change the footer and perhaps header appropriately (in `_include`).
-
-You might also want to change the style or theme. I imported style files (in sass) from Bootstrap/Bootwatch, you can replace them with your own (in the `_sass directory`). For small changes, just work on the override stuff in the `main.sass` file in the `CSS` folder. Or change some variables in the `_variables.sass` file, like the background color etc. 
-
-As said, [Jekyll](https://jekyllrb.com) takes all the markdown and data files, and creates beautiful `html` files in the `_site` folder.In the end, either upload these files  to your server, or buy yourself a domain and check the instructions on github on how to host it there.
-
-### Copyright / credit
-
-You can use this template as you please. You don't have to link to us or mention us (but of course we appreciate it). We also welcome it if you send us an email with a link to your website, perhaps we'll publish a list here at some point. 
-
-Comments welcome.
-
-Code released under the MIT License. 
+- [ltm_carousel](../ltm-unicamp.github.io/images/ltm_carousel): Guarda as imagens do carrossel da página inicial
+- [ltm_logos](../ltm-unicamp.github.io/images/ltm_logos): Guarda as logos do lab e de empresas parceiras
+- [ltm_news](../ltm-unicamp.github.io/images/ltm_news): Guarda as imagens das notícias
+- [ltm_publication](../ltm-unicamp.github.io/images/ltm_publication): Guarda as imagens da página de publicações
+- [ltm_research](../ltm-unicamp.github.io/images/ltm_research): Guarda as imagens e gifs da página de pesquisa
+- [ltm_team](../ltm-unicamp.github.io/images/ltm_team): Guarda as fotos dos maravilhosos membros do grupo!
 
 
+##  Demais pastas e arquivos 
+As pastas de [_includes](../ltm-unicamp.github.io/_includes/) e [_layouts](../ltm-unicamp.github.io/_layouts/) são repletas de arquivos em `.htlm`, contendo o código que descreve o template. O arquivo [carousel](../ltm-unicamp.github.io/_includes/carousel.html), dentro da pasta [_includes](../ltm-unicamp.github.io/_includes/), deve ser modificado ao surgirem novas fotos para o carrosel que compõe a página inicial do site. Os demais arquivos em `.html` não necessitam de alteração constante.
+
+As demais pastas, sendo elas [plugins](../ltm-unicamp.github.io/_plugins/), [sass](../ltm-unicamp.github.io/_sass/), [_site](../ltm-unicamp.github.io/_site/), [.jekyll-cache](../ltm-unicamp.github.io/.jekyll-cache/), [css](../ltm-unicamp.github.io/css/), [fonts](../ltm-unicamp.github.io/fonts/), [js](../ltm-unicamp.github.io/js/), [vendor](../ltm-unicamp.github.io/vendor/) e os arquivos [_config.yml](../ltm-unicamp.github.io/_config.yml), [.gitignore](../ltm-unicamp.github.io/.gitignore), [CNAME](../ltm-unicamp.github.io/CNAME) e [Gemfile](../ltm-unicamp.github.io/Gemfile) não precisam (*ou não devem*) ser alterados.
+
+**A pasta [_site](../ltm-unicamp.github.io/_site/) contém os arquivos convertidos para a montagem do site, sendo gerada automaticamente pelo jekyll, e não deve ser modificada!**
 
 
+
+
+
+Abraços e boas pesquisas!
