@@ -12,7 +12,6 @@
   number_socials: 2
   orcid: https://orcid.org/0000-0002-3883-1411
   linkedin: https://www.linkedin.com/in/renato-pavanello-ab6b98245/
-  CV:
 
 - name: William Martins Vicente
   photo: WilliamVicente.jpg
@@ -28,7 +27,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 - name: Gisele Lucas Garcez
   photo: GiseleGarcez.jpg
@@ -44,13 +42,12 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
-- name: Lidy Marcela Anaya Jaimes
-  photo: LidyMarcela.jpg
-  info: PhD student
-  email: lidy@fem.unicamp.br
-  lattes: http://lattes.cnpq.br/6461965167591664
+- name: Rafael Marin Ferro
+  photo: RafaelFerro.jpg
+  info: PhD student and <a href="https://www.ifes.edu.br/">IFES</a> Professor
+  email: rafael.ferro@ifes.edu.br
+  lattes: http://lattes.cnpq.br/1421321717323203
   number_educ: 0
   education1: 
   education2: 
@@ -58,9 +55,9 @@
   education4: 
   education5: 
   number_socials: 0
+  number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 - name: Daniel Candeloro Cunha
   photo: DanielCunha.jpg
@@ -76,7 +73,21 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
+
+- name: Lidy Marcela Anaya Jaimes
+  photo: LidyMarcela.jpg
+  info: PhD student
+  email: lidy@fem.unicamp.br
+  lattes: http://lattes.cnpq.br/6461965167591664
+  number_educ: 0
+  education1: 
+  education2: 
+  education3: 
+  education4: 
+  education5: 
+  number_socials: 0
+  orcid:
+  linkedin:
 
 - name: Heitor Nigro Lopes
   photo: HeitorLopes.jpg
@@ -92,7 +103,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 - name: Breno Vicenzo Almeida
   photo: BrenoAlmeida.jpg
@@ -108,7 +118,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 - name: Antônio Vinicius Garcia Campos
   photo: ViniciusCampos.jpg
@@ -124,7 +133,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 - name: Claudia Marcela Perez Madrid
   photo: ClaudiaPerez.jpg
@@ -140,7 +148,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 - name: Vitor Hugo
   photo: VitorHugo.jpg
@@ -156,7 +163,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 - name: João Neto
   photo: dummy.png
@@ -172,7 +178,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 
 #- name: 

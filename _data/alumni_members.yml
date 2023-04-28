@@ -12,7 +12,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 - name: Rodrigo Lima Pereira
   photo: RodrigoPereira.jpg
@@ -25,10 +24,9 @@
   education3: 
   education4: 
   education5: 
-  number_socials: 3
+  number_socials: 2
   orcid: https://orcid.org/0000-0002-0442-4666
   linkedin: https://www.linkedin.com/in/rodrigo-lima-pereira-148286a2/
-  cv: RodrigoCV_2023.pdf
 
 - name: Evandro Souto Carobino
   photo: EvandroSolto.jpg
@@ -44,7 +42,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 - name: Luis Felipe de Oliveira Lima
   photo: LuisFelipe.jpg
@@ -60,7 +57,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 - name: Felipe Miranda Azevedo 
   photo: FelipeMiranda.jpg
@@ -76,7 +72,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 - name: Edgar Andres Patino Narino
   photo: EdgarPatino.jpg
@@ -92,7 +87,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 - name: Débora Junqueira Fonseca
   photo: DeboraFonseca.jpg
@@ -108,7 +102,6 @@
   number_socials: 0
   orcid:
   linkedin:
-  CV:
 
 #- name: 
 #  photo: 

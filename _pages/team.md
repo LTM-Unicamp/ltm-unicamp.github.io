@@ -33,9 +33,6 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
     <i><a href="{{ member.orcid }}">ORCID</a></i>
   {% elsif member.number_socials == 2 %}
     <i><a href="{{ member.orcid }}">ORCID</a></i> | <i><a href="{{ member.linkedin }}">LinkedIn</a></i> <br>
-  {% elsif member.number_socials == 3 %}
-    <i><a href="{{ member.orcid }}">ORCID</a></i> | <i><a href="{{ member.linkedin }}">LinkedIn</a></i> 
-    | <i><a href="/curriculum/{{member.cv}}">CV</a></i> <br> 
   {% endif %}
   </ul>
   <ul style="overflow: hidden">
@@ -104,9 +101,6 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
     <i><a href="{{ member.orcid }}">ORCID</a></i>
   {% elsif member.number_socials == 2 %}
     <i><a href="{{ member.orcid }}">ORCID</a></i> | <i><a href="{{ member.linkedin }}">LinkedIn</a></i> <br>
-  {% elsif member.number_socials == 3 %}
-    <i><a href="{{ member.orcid }}">ORCID</a></i> | <i><a href="{{ member.linkedin }}">LinkedIn</a></i> 
-    | <i><a href="/curriculum/{{member.cv}}">CV</a></i> <br> 
   {% endif %}
   </ul>
   <ul style="overflow: hidden">
@@ -177,9 +171,6 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
     <i><a href="{{ member.orcid }}">ORCID</a></i>
   {% elsif member.number_socials == 2 %}
     <i><a href="{{ member.orcid }}">ORCID</a></i> | <i><a href="{{ member.linkedin }}">LinkedIn</a></i> <br>
-  {% elsif member.number_socials == 3 %}
-    <i><a href="{{ member.orcid }}">ORCID</a></i> | <i><a href="{{ member.linkedin }}">LinkedIn</a></i> 
-    | <i><a href="/curriculum/{{member.cv}}">CV</a></i> <br> 
   {% endif %}
   </ul>
   <ul style="overflow: hidden">
