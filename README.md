@@ -19,7 +19,7 @@ Outra pasta importante é a [_pages](https://github.com/LTM-Unicamp/ltm-unicamp.
 **Não modificáveis**:
 - [404.md](https://github.com/LTM-Unicamp/ltm-unicamp.github.io/tree/gh-pages/_pages/404.md): Código que relata erro de navegação
 - [allnews.md](https://github.com/LTM-Unicamp/ltm-unicamp.github.io/tree/gh-pages/_pages/allnews.md): Códigos para as notícias -- modificar em: [news.yml](https://github.com/LTM-Unicamp/ltm-unicamp.github.io/tree/gh-pages/_data/news.yml)
-- [publications.md](https://github.com/LTM-Unicamp/ltm-unicamp.github.io/tree/gh-pages/_pages/publications.md): Códigos para as publicações -- modificar em: [publist.yml](https://github.com/LTM-Unicamp/ltm-unicamp.github.io/tree/gh-pages/_data_/publist.yml)
+- [publications.md](https://github.com/LTM-Unicamp/ltm-unicamp.github.io/tree/gh-pages/_pages/publications.md): Códigos para as publicações -- modificar em: [publist.yml](https://github.com/LTM-Unicamp/ltm-unicamp.github.io/blob/gh-pages/_data/publist.yml)
 - [team.md](https://github.com/LTM-Unicamp/ltm-unicamp.github.io/tree/gh-pages/_pages/team.md): Códigos para os membros do grupo -- modificar em: [staff_members.yml](https://github.com/LTM-Unicamp/ltm-unicamp.github.io/tree/gh-pages/_data/staff_members.yml), [alumni_members.yml](https://github.com/LTM-Unicamp/ltm-unicamp.github.io/tree/gh-pages/_data/alumni_members.yml) ou [partime_members.yml](https://github.com/LTM-Unicamp/ltm-unicamp.github.io/tree/gh-pages/_data/partime_members.yml).
 
 **Modificáveis**:
