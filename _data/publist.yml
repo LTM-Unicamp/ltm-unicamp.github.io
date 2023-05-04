@@ -1,5 +1,5 @@
 #- title: "TITULO"
-#  image: Nome da sua foto que está na pasta images/ltm_team .extensão
+#  image: Nome da sua foto que está na pasta images/ltm_publication .extensão
 #  description: "Descrição aqui"
 #  authors: 
 #  link: 
@@ -10,18 +10,7 @@
 #  year: ano
 #  news: Caso queria alguma noticia, ela aparecerá em vermelho na janela de highlights
 
-- title: "Topology optimization of acoustic systems with a multiconstrained BESO approach"
-  image: RodrigoPereira_ArtigoFinel.png
-  description: "This work details a new acoustic topology optimization methodology with applications on the design of systems composed of rigid and porous materials. The Bi-directional Evolutionary Structural Optimization (BESO) algorithm is combined with the Virtual Temperature Method to minimize the occurrence of air cavities and rough surfaces inside rigid and porous domains, hence configuring a multiconstrained optimization approach."
-  authors: Rodrigo L. Pereira, Heitor N. Lopes and Renato Pavanello
-  link:
-    url: https://doi.org/10.1016/j.finel.2021.103701
-    display: doi:10.1016/j.finel.2021.103701
-  highlight: 1 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
-  journal: Finite Elements in Analysis and Design
-  year: 2022
-  #news:  <a style="color:#FF0000" href="https://www.nature.com/articles/s41567-021-01468-w">Featured as 'Research Highlight' in Nature Physics by David Abergel</a>
-  
+
 - title: "Multi-domain acoustic topology optimization based on the BESO approach: applications on the design of multi-phase material mufflers"
   image: RodrigoPereira_ArtigoSamo.png
   description: "This paper presents a multi-domain acoustic topology optimization methodology applied to the design of reactive and dissipative expansion chamber mufflers. Based on the Bi-directional Evolutionary Structural Optimization (BESO) algorithm, the proposed approach also uses a novel material interpolation scheme that considers acoustic, porous and rigid domains during the optimization process, hence configuring a multi-phase procedure. Furthemore, more than one muffler per BESO iteration is considered, being also possible to optimize for specific frequency bands in predefined chambers."
@@ -34,20 +23,8 @@
   year: 2023
   #news:
 
-- title: "Design of periodic noise barriers using the bi-directional evolutionary optimization method"
-  image: Dummy.png
-  description: ""
-  authors: Rodrigo L. Pereira, Lidy M. Anaya-Jaimes and Renato Pavanello
-  link: 
-    url: https://hal.science/FA2020/hal-03235499v1
-    display: doi:10.48465/fa.2020.1068
-  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
-  journal: Forum Acusticum
-  year: 2020
-  #news:
-
 - title: "Topology Optimization of Acoustic-Poroelastic-Elastic Structures for Sound Attenuation"
-  image: Dummy.png
+  image: dummy.png
   description: ""
   authors: Rodrigo L. Pereira, Lidy M. Anaya-Jaimes and Renato Pavanello
   link: 
@@ -59,7 +36,7 @@
   #news:
 
 - title: "Topology Optimization Design of Acoustic-Poroelastic-Elastic Structures by the BESO Approach"
-  image: Dummy.png
+  image: dummy.png
   description: ""
   authors: Rodrigo L. Pereira and Renato Pavanello
   link: 
@@ -70,4 +47,111 @@
   year: 2023
   #news:
 
-  
+- title: "Numerical and experimental investigation on topology optimization of an elongated dynamic system"
+  image: dummy.png
+  description: ""
+  authors: Heitor N. Lopes, Daniel C. Cunha, Renato Pavanello and Jarir Mahfoud
+  link:
+    url: https://doi.org/10.1016/j.ymssp.2021.108356
+    display: doi:10.1016/j.ymssp.2021.108356
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Mechanical Systems and Signal Processing
+  year: 2022
+  #news:
+
+- title: "Topology optimization of acoustic systems with a multiconstrained BESO approach"
+  image: RodrigoPereira_ArtigoFinel.png
+  description: "This work details a new acoustic topology optimization methodology with applications on the design of systems composed of rigid and porous materials. The Bi-directional Evolutionary Structural Optimization (BESO) algorithm is combined with the Virtual Temperature Method to minimize the occurrence of air cavities and rough surfaces inside rigid and porous domains, hence configuring a multiconstrained optimization approach."
+  authors: Rodrigo L. Pereira, Heitor N. Lopes and Renato Pavanello
+  link:
+    url: https://doi.org/10.1016/j.finel.2021.103701
+    display: doi:10.1016/j.finel.2021.103701
+  highlight: 1 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Finite Elements in Analysis and Design
+  year: 2022
+  #news:  <a style="color:#FF0000" href="https://www.nature.com/articles/s41567-021-01468-w">Featured as 'Research Highlight' in Nature Physics by David Abergel</a>
+
+- title: "Topology optimization with connectivity constraint to separate natural frequencies of a ring structure"
+  image: dummy.png
+  description: ""
+  authors: Heitor N. Lopes, Daniel C. Cunha and Renato Pavanello
+  link:
+    url: https://doi.org/10.26678/abcm.mecsol2022.msl22-0178
+    display: doi:10.26678/abcm.mecsol2022.msl22-0178
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: 8th International Symposium on Solid Mechanics
+  year: 2022
+  #news:
+
+- title: "Finite variation sensitivity analysis for discrete topology optimization of continuum structures"
+  image: dummy.png
+  description: ""
+  authors: Daniel C. Cunha, Breno V. de Almeida, Heitor N. Lopes and Renato Pavanello
+  link:
+    url: https://doi.org/10.1007/s00158-021-03066-z
+    display: doi:10.1007/s00158-021-03066-z
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Structural and Multidisciplinary Optimization
+  year: 2021
+  #news:
+
+- title: "Design of periodic noise barriers using the bi-directional evolutionary optimization method"
+  image: dummy.png
+  description: ""
+  authors: Rodrigo L. Pereira, Lidy M. Anaya-Jaimes and Renato Pavanello
+  link: 
+    url: https://hal.science/FA2020/hal-03235499v1
+    display: doi:10.48465/fa.2020.1068
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Forum Acusticum
+  year: 2020
+  #news:
+
+- title: "Topology optimization of bimorph piezoelectric energy harvesters considering variable electrode location"
+  image: dummy.png
+  description: ""
+  authors: Breno V. de Almeida, Daniel C. Cunha and Renato Pavanello
+  link:
+    url: https://doi.org/10.1088/1361-665X/ab2c3e
+    display: doi:10.1088/1361-665X/ab2c3e
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Smart Materials and Structures
+  year: 2019
+  #news:
+
+- title: "Evolutionary Topology Optimization for Designing Cellular Fluid Actuators"
+  image: dummy.png
+  description: ""
+  authors: Daniel C. Cunha and Renato Pavanello
+  link:
+    url: https://doi.org/10.1007/978-3-319-67988-4_112
+    display: doi:10.1007/978-3-319-67988-4_112
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: 12th World Congress of Structural and Multidisciplinary Optimisation
+  year: 2017
+  #news:
+
+- title: "Sensitivity Analysis for Topology Optimization of Nonlinear Fluid Actuators"
+  image: dummy.png
+  description: ""
+  authors: Daniel C. Cunha and Renato Pavanello
+  link:
+    url: https://doi.org/10.26678/abcm.mecsol2017.msl17-0060
+    display: doi:10.26678/abcm.mecsol2017.msl17-0060
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: 6th International Symposium on Solid Mechanics
+  year: 2017
+  #news:
+
+- title: "Evolutionary Topology Optimization of Geometrically Nonlinear Continuum Structures"
+  image: dummy.png
+  description: ""
+  authors: Daniel C. Cunha and Renato Pavanello
+  link:
+    url: https://doi.org/10.19146/pibic-2016-50786
+    display: doi:10.19146/pibic-2016-50786
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: XXIV Congresso de Iniciação Científica da Unicamp
+  year: 2016
+  #news:
+
