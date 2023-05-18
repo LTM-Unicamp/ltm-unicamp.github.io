@@ -8,7 +8,9 @@ permalink: /publications/
 
 
 # Publications
-**The [full list of publications](#full-list-of-publications) is at the end of the page.** <!--All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).-->
+**The [full list of publications](#full-list-of-publications) is at the end of the page.** 
+
+---
 
 ## Group highlights
 {% assign number_printed = 0 %}
@@ -57,7 +59,41 @@ permalink: /publications/
 
 -->
 ## Full List of publications
+---
 
+{% assign pub = site.data.publist | where: "type", "paper" %}
+<h3>Scientific Journal Papers</h3>
+{% for publi in pub %}
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br />
+  Published in {{publi.journal}}, {{publi.year}} <br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+{% endfor %}
+
+
+{% assign pub = site.data.publist | where: "type", "book" %}
+<h3>Book Chapters</h3>
+{% for publi in pub %}
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br />
+  Published in {{publi.journal}}, {{publi.year}} <br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+{% endfor %}
+
+
+{% assign pub = site.data.publist | where: "type", "conference" %}
+<h3>Papers Published in Annals of Events</h3>
+{% for publi in pub %}
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br />
+  Published in {{publi.journal}}, {{publi.year}} <br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+{% endfor %}
+
+
+
+
+<!--
 {% for publi in site.data.publist %}
 
   {{ publi.title }} <br />
@@ -66,3 +102,28 @@ permalink: /publications/
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}
+-->
+
+<!--
+{% assign pub = site.data.publist | where: "year", "2023" %}
+<h4>2023</h4>
+{% for publi in pub %}
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br />
+  Published in {{publi.journal}}, {{publi.year}} <br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+{% endfor %}
+-->
+
+<!--
+{% for publi in site.data.publist %}
+{% if publi.year == "2023" %}
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br />
+  Published in {{publi.journal}}, {{publi.year}} <br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+{% endif %}
+{% endfor %}
+-->
+
+

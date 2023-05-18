@@ -1,3 +1,4 @@
+##############################################################################################################################################
 #- title: "TITULO"
 #  image: Nome da sua foto que está na pasta images/ltm_publication .extensão
 #  description: "Descrição aqui"
@@ -8,9 +9,11 @@
 #  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
 #  journal: Nome do journal
 #  year: ano
+#  type: "paper" (para artigos de revistas), "conference" (para artigos de congressos e correlatos) ou "book" (para livros ou capítulos de livros)
 #  news: Caso queria alguma noticia, ela aparecerá em vermelho na janela de highlights
+##############################################################################################################################################
 
-
+# COLOCAR AQUI OS ARTIGOS DE REVISTAS! -> type: "paper"
 - title: "Multi-domain acoustic topology optimization based on the BESO approach: applications on the design of multi-phase material mufflers"
   image: RodrigoPereira_ArtigoSamo.png
   description: "This paper presents a multi-domain acoustic topology optimization methodology applied to the design of reactive and dissipative expansion chamber mufflers. Based on the Bi-directional Evolutionary Structural Optimization (BESO) algorithm, the proposed approach also uses a novel material interpolation scheme that considers acoustic, porous and rigid domains during the optimization process, hence configuring a multi-phase procedure. Furthemore, more than one muffler per BESO iteration is considered, being also possible to optimize for specific frequency bands in predefined chambers."
@@ -20,31 +23,8 @@
     display: doi:10.1007/s00158-022-03479-4
   highlight: 1 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
   journal: Structural and Multidisciplinary Optimization
-  year: 2023
-  #news:
-
-- title: "Topology Optimization of Acoustic-Poroelastic-Elastic Structures for Sound Attenuation"
-  image: dummy.png
-  description: ""
-  authors: Rodrigo L. Pereira, Lidy M. Anaya-Jaimes and Renato Pavanello
-  link: 
-    url: https://www.scipedia.com/public/Pereira_et_al_2022a
-    display: doi:10.23967/wccm-apcom.2022.117
-  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
-  journal: 15th World Congress on Computation Mecchanics & 8th Asian Pacific Congress on Computation Mechanics
-  year: 2023
-  #news:
-
-- title: "Topology Optimization Design of Acoustic-Poroelastic-Elastic Structures by the BESO Approach"
-  image: dummy.png
-  description: ""
-  authors: Rodrigo L. Pereira and Renato Pavanello
-  link: 
-    url: https://abcm.org.br/anais-de-eventos/MSL22/0197
-    display: doi:10.26678/ABCM.MECSOL2022.MSL22-0197
-  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
-  journal: Proceedings of the 8th International Symposium on Solid Mechanics
-  year: 2023
+  year: "2023"
+  type: "paper"
   #news:
 
 - title: "Numerical and experimental investigation on topology optimization of an elongated dynamic system"
@@ -56,7 +36,8 @@
     display: doi:10.1016/j.ymssp.2021.108356
   highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
   journal: Mechanical Systems and Signal Processing
-  year: 2022
+  year: "2022"
+  type: "paper"
   #news:
 
 - title: "Topology optimization of acoustic systems with a multiconstrained BESO approach"
@@ -68,20 +49,9 @@
     display: doi:10.1016/j.finel.2021.103701
   highlight: 1 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
   journal: Finite Elements in Analysis and Design
-  year: 2022
+  year: "2022"
+  type: "paper"
   #news:  <a style="color:#FF0000" href="https://www.nature.com/articles/s41567-021-01468-w">Featured as 'Research Highlight' in Nature Physics by David Abergel</a>
-
-- title: "Topology optimization with connectivity constraint to separate natural frequencies of a ring structure"
-  image: dummy.png
-  description: ""
-  authors: Heitor N. Lopes, Daniel C. Cunha and Renato Pavanello
-  link:
-    url: https://doi.org/10.26678/abcm.mecsol2022.msl22-0178
-    display: doi:10.26678/abcm.mecsol2022.msl22-0178
-  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
-  journal: 8th International Symposium on Solid Mechanics
-  year: 2022
-  #news:
 
 - title: "Finite variation sensitivity analysis for discrete topology optimization of continuum structures"
   image: dummy.png
@@ -92,19 +62,8 @@
     display: doi:10.1007/s00158-021-03066-z
   highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
   journal: Structural and Multidisciplinary Optimization
-  year: 2021
-  #news:
-
-- title: "Design of periodic noise barriers using the bi-directional evolutionary optimization method"
-  image: dummy.png
-  description: ""
-  authors: Rodrigo L. Pereira, Lidy M. Anaya-Jaimes and Renato Pavanello
-  link: 
-    url: https://hal.science/FA2020/hal-03235499v1
-    display: doi:10.48465/fa.2020.1068
-  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
-  journal: Forum Acusticum
-  year: 2020
+  year: "2021"
+  type: "paper"
   #news:
 
 - title: "Topology optimization of bimorph piezoelectric energy harvesters considering variable electrode location"
@@ -116,7 +75,279 @@
     display: doi:10.1088/1361-665X/ab2c3e
   highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
   journal: Smart Materials and Structures
-  year: 2019
+  year: "2019"
+  type: "paper"
+  #news:
+
+- title: "Topology Optimization of the Thickness Profile of Bimorph Piezoelectric Energy Harvesting Devices"
+  image: dummy.png
+  description: ""
+  authors: De Almeida, B. V., Pavanello, R.
+  link:
+    url: https://jacm.scu.ac.ir/article_13608.html
+    display: doi:10.22055/JACM.2018.25097.1228
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Journal of Applied and Computational Mechanics
+  year: "2019"
+  type: "paper"
+  #news:
+
+- title: "Atomic-scale finite element modelling of mechanical behaviour of graphene nanoribbons"
+  image: dummy.png
+  description: ""
+  authors: Damasceno D.A., Mesquita E., Rajapakse R.K.N.D., Pavanello R.
+  link:
+    url: https://doi.org/10.1007/s10999-018-9403-z
+    display: doi:10.1007/s10999-018-9403-z
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: International Journal of Mechanics and Materials in Design
+  year: "2019"
+  type: "paper"
+  #news:
+
+- title: "A consistent multiphase SPH approximation for bubble rising with moderate Reynolds numbers"
+  image: dummy.png
+  description: ""
+  authors: Patino Narino E.A., Galvis A., Sollero P., Pavanello R., Moshkalev S.
+  link:
+    url: https://doi.org/10.1016/j.enganabound.2019.04.002
+    display: doi:10.1016/j.enganabound.2019.04.002
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Engineering Analysis with Boundary Elements
+  year: "2019"
+  type: "paper"
+  #news:
+
+- title: "Topology optimization of reactive acoustic mufflers using a bi-directional evolutionary optimization method"
+  image: dummy.png
+  description: ""
+  authors: Azevedo, F. M., Moura, M. S., Vicente, W. M., Picelli, R., Pavanello, R.
+  link:
+    url: https://doi.org/10.1007/s00158-018-2012-5
+    display: doi:10.1007/s00158-018-2012-5
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Structural and Multidiciplinary Optimization
+  year: "2018"
+  type: "paper"
+  #news:
+
+- title: "A dynamic model to evaluate the influence of the laying or retrieval speed on the installation and recovery of subsea equipment"
+  image: dummy.png
+  description: ""
+  authors: Tommasini R.B., Carvalho L.O., Pavanello R.
+  link:
+    url: https://doi.org/10.1016/j.apor.2018.05.001
+    display: doi:10.1016/j.apor.2018.05.001
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Applied Ocean Research
+  year: "2018"
+  type: "paper"
+  #news:
+
+- title: "Marine pipeline–seabed interaction modeling based on Kerr-type foundation"
+  image: dummy.png
+  description: ""
+  authors: Machado Antonio L., Pavanello R., Barros P.A.L.
+  link:
+    url: https://doi.org/10.1016/j.apor.2018.09.004
+    display: doi:10.1016/j.apor.2018.09.004
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Applied Ocean Research
+  year: "2018"
+  type: "paper"
+  #news:
+
+- title: "Optimization of fluid-structure systems by eigenvalues gap separation with sensitivity analysis"
+  image: dummy.png
+  description: ""
+  authors: Casas, W. J. P., Pavanello, R.
+  link:
+    url: https://doi.org/10.1016/j.apm.2016.10.031
+    display: doi:10.1016/j.apm.2016.10.031
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Applied Mathematical Modelling
+  year: "2017"
+  type: "paper"
+  #news:
+
+- title: "Evolutionary topology optimization for structural compliance minimization considering design-dependent FSI loads"
+  image: dummy.png
+  description: ""
+  authors: Picelli, R., Vicente, W.M., Pavanello, R.
+  link:
+    url: https://doi.org/10.1016/j.finel.2017.07.005
+    display: doi:10.1016/j.finel.2017.07.005
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Finite Elements in Analysis and Design
+  year: "2017"
+  type: "paper"
+  #news:
+
+- title: "Topology optimization for submerged buoyant structures"
+  image: dummy.png
+  description: ""
+  authors: R. Picelli, R. van Dijk, W.M. Vicente, R. Pavanello, M. Langelaar, F. van Keulen
+  link:
+    url: https://doi.org/10.1080/0305215X.2016.1164147
+    display: doi:10.1080/0305215X.2016.1164147
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Engineering Optimization
+  year: "2016"
+  type: "paper"
+  #news:
+
+- title: "Concurrent topology optimization for minimizing frequency responses of two-level hierarchical structures"
+  image: dummy.png
+  description: ""
+  authors: W.M. Vicente, Z.H. Zuo, R. Pavanello, T.K.L. Calixto, R. Picelli, Y.M. Xie
+  link:
+    url: https://doi.org/10.1016/j.cma.2015.12.012
+    display: doi:10.1016/j.cma.2015.12.012
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Computer Methods in Applied Mechanics and Engineering
+  year: "2016"
+  type: "paper"
+  #news:
+
+- title: "Evolutionary topology optimization for natural frequency maximization problems considering acoustic-structure interaction"
+  image: dummy.png
+  description: ""
+  authors: Picelli R., Vicente W.M., Pavanello R., Xie Y.M.
+  link:
+    url: https://doi.org/10.1016/j.finel.2015.07.010
+    display: doi:10.1016/j.finel.2015.07.010
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Finite Elements in Analysis and Design
+  year: "2015"
+  type: "paper"
+  #news:
+
+- title: "Bi-directional evolutionary structural optimization for design-dependent fluid pressure loading problems"
+  image: dummy.png
+  description: ""
+  authors: Picelli R., Vicente W.M., Pavanello R.
+  link:
+    url: https://doi.org/10.1080/0305215X.2014.963069
+    display: doi:10.1080/0305215X.2014.963069
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Engineering Optimization
+  year: "2015"
+  type: "paper"
+  #news:
+
+- title: "Topology optimization of frequency responses of fluid–structure interaction systems"
+  image: dummy.png
+  description: ""
+  authors: Vicente W.M., Picelli R., Pavanello R., Xie Y.M.
+  link:
+    url: https://doi.org/10.1016/j.finel.2015.01.009
+    display: doi:10.1016/j.finel.2015.01.009
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Finite Elements in Analysis and Design
+  year: "2015"
+  type: "paper"
+  #news:
+
+- title: "Definition of a P-interpolating space of hierarchical bases of finite elements on the pyramid"
+  image: dummy.png
+  description: ""
+  authors: Bravo C.M.A.A., Pavanello R., Devloo P. R. B., Calle J. L. D.
+  link:
+    url: https://doi.org/10.1016/j.laa.2014.07.033
+    display: doi:10.1016/j.laa.2014.07.033
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Linear Algebra and its Applications
+  year: "2014"
+  type: "paper"
+  #news:
+
+- title: "Structural shape optimization of bonded joints using the ESO method and a honeycomb-like mesh"
+  image: dummy.png
+  description: ""
+  authors: Quispe Rodríguez R., Picelli R., Sollero P., Pavanello R.
+  link:
+    url: https://doi.org/10.1080/01694243.2012.698112
+    display: doi:10.1080/01694243.2012.698112
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Journal of Adhesion Science and Technology
+  year: "2014"
+  type: "paper"
+  #news:
+
+
+
+
+
+###################################################################################################################################################
+# COLOCAR AQUI OS ARTIGOS DE CONGRESSOS! -> type: "conference"
+- title: "Chapter 5 - Acoustic Eigenvalue Analysis by Boundary Element Methods"
+  image: dummy.png
+  description: ""
+  authors: Mesquita E., Carvalho E. R., Arruda J.R.F and Pavanello R.
+  link: 
+    url: https://books.google.com.br/books/about/Boundary_Element_Acoustics.html?id=W75rtAEACAAJ&redir_esc=y
+    display: ISBN:1-85312-570-9
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Boundary Elements in Acoustics Fundamentals and Computer Codes, Editor T.W. Wu. WIT Series on Advances in Boundary Elements
+  year: "2000"
+  type: "book"
+  #news:
+
+
+
+
+###################################################################################################################################################
+# COLOCAR AQUI OS ARTIGOS DE CONGRESSOS! -> type: "conference"
+- title: "Topology Optimization of Acoustic-Poroelastic-Elastic Structures for Sound Attenuation"
+  image: dummy.png
+  description: ""
+  authors: Rodrigo L. Pereira, Lidy M. Anaya-Jaimes and Renato Pavanello
+  link: 
+    url: https://www.scipedia.com/public/Pereira_et_al_2022a
+    display: doi:10.23967/wccm-apcom.2022.117
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: 15th World Congress on Computation Mecchanics & 8th Asian Pacific Congress on Computation Mechanics
+  year: "2023"
+  type: "conference"
+  #news:
+
+- title: "Topology Optimization Design of Acoustic-Poroelastic-Elastic Structures by the BESO Approach"
+  image: dummy.png
+  description: ""
+  authors: Rodrigo L. Pereira and Renato Pavanello
+  link: 
+    url: https://abcm.org.br/anais-de-eventos/MSL22/0197
+    display: doi:10.26678/ABCM.MECSOL2022.MSL22-0197
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Proceedings of the 8th International Symposium on Solid Mechanics
+  year: "2023"
+  type: "conference"
+  #news:
+
+- title: "Topology optimization with connectivity constraint to separate natural frequencies of a ring structure"
+  image: dummy.png
+  description: ""
+  authors: Heitor N. Lopes, Daniel C. Cunha and Renato Pavanello
+  link:
+    url: https://doi.org/10.26678/abcm.mecsol2022.msl22-0178
+    display: doi:10.26678/abcm.mecsol2022.msl22-0178
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: 8th International Symposium on Solid Mechanics
+  year: "2022"
+  type: "conference"
+  #news:
+
+- title: "Design of periodic noise barriers using the bi-directional evolutionary optimization method"
+  image: dummy.png
+  description: ""
+  authors: Rodrigo L. Pereira, Lidy M. Anaya-Jaimes and Renato Pavanello
+  link: 
+    url: https://hal.science/FA2020/hal-03235499v1
+    display: doi:10.48465/fa.2020.1068
+  highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
+  journal: Forum Acusticum
+  year: "2020"
+  type: "conference"
   #news:
 
 - title: "Evolutionary Topology Optimization for Designing Cellular Fluid Actuators"
@@ -128,7 +359,8 @@
     display: doi:10.1007/978-3-319-67988-4_112
   highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
   journal: 12th World Congress of Structural and Multidisciplinary Optimisation
-  year: 2017
+  year: "2017"
+  type: "conference"
   #news:
 
 - title: "Sensitivity Analysis for Topology Optimization of Nonlinear Fluid Actuators"
@@ -140,7 +372,8 @@
     display: doi:10.26678/abcm.mecsol2017.msl17-0060
   highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
   journal: 6th International Symposium on Solid Mechanics
-  year: 2017
+  year: "2017"
+  type: "conference"
   #news:
 
 - title: "Evolutionary Topology Optimization of Geometrically Nonlinear Continuum Structures"
@@ -152,6 +385,15 @@
     display: doi:10.19146/pibic-2016-50786
   highlight: 0 # O highlight faz com que ele apareça como destaque na tela. Caso deseje que apareça somente na lista, colocar highlight: 0
   journal: XXIV Congresso de Iniciação Científica da Unicamp
-  year: 2016
+  year: "2016"
+  type: "conference"
   #news:
+
+
+
+
+
+
+
+
 
