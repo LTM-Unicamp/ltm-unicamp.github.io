@@ -7,7 +7,7 @@ permalink: /team/
 ---
 
 # Group Members
-The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MSc) and professors. Jump to [Full-Time Researchers](#staff), [Part-Time Researchers](#part-time-researchers) or [Alumni](#alumni) to know more.
+The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MSc) and professors. Jump to [Full-Time Researchers](#full-time-researchers), [Part-Time Researchers](#part-time-researchers) or [Alumni](#alumni) to know more.
 
 ## Full-Time Researchers
 {% assign number_printed = 0 %}
