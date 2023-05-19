@@ -16,9 +16,11 @@ Our research is based on Structural Topology Optimization and Multiphysics/Multi
 
 In order to conduct our studies and investigations we are partially funded by the following organizations: [Coordination of Superior Level Staff Improvement](https://www.gov.br/capes/pt-br) (CAPES), [National Council for Scientific and Technological Development](https://www.gov.br/cnpq/pt-br) (CNPq) and [São Paulo Research Foundation](https://fapesp.br/) (FAPESP). We are also part of the [Center for Computing in Engineering & Sciences](https://cces.unicamp.br/), being a world-class multidisciplinary research Center dedicated to advanced computational modeling in physical and chemical molecular sciences, computational mechanical engineering and materials, computational biology and bioinformatics, computational geophysics, and computer science. 
 
+{% comment %}
 <p align=center>
   <img src="{{ site.url }}{{ site.baseurl }}/images/ltm_logos/capes.png" style="width: 150px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/ltm_logos/cnpq.jpg" style="width: 150px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/ltm_logos/fapesp.jpg" style="width: 150px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/ltm_logos/cces.png" style="width: 150px">
 </p>
+{% endcomment %}
