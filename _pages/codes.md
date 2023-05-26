@@ -3,7 +3,7 @@ title: "LTM - Codes"
 layout: textlay
 excerpt: "LTM -- Codes"
 sitemap: false
-permalink: /
+permalink: /codes/
 ---
 
 # Codes
