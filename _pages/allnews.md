@@ -3,7 +3,7 @@ title: "News"
 layout: textlay
 excerpt: "LTM -- News."
 sitemap: false
-permalink: ./allnews.html
+permalink: /
 ---
 
 # News
