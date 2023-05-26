@@ -3,7 +3,7 @@ title: "LTM - Team"
 layout: gridlay
 excerpt: "LTM -- Team"
 sitemap: false
-permalink: /
+permalink: /team/
 ---
 
 # Group Members
