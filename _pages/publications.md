@@ -3,7 +3,7 @@ title: "LTM - Publications"
 layout: gridlay
 excerpt: "LTM -- Publications."
 sitemap: false
-permalink: /
+permalink: /publications/
 ---
 
 
