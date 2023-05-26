@@ -3,7 +3,7 @@ title: "LTM - Research"
 layout: textlay
 excerpt: "LTM -- Research"
 sitemap: false
-permalink: /
+permalink: /research/
 ---
 
 Our research is based on Structural Topology Optimization and Multiphysics/Multiscale Analysis, including studies on new numerical evolutionary methods and bio-inspired design strategies. Jump to [Current Research](#current-research) or [Former Research](#former-research) to know more.
