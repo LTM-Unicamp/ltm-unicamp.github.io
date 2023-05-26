@@ -3,7 +3,7 @@ title: "LTM - Home"
 layout: homelay
 excerpt: "LTM -- Home."
 sitemap: false
-permalink: ./
+permalink: /
 ---
 
 The Laboratory of Topology Optimization and Multiphysics Analysis (LTM) is a research laboratory at the [School of Mechanical Engineering](https://www.fem.unicamp.br/index.php/pt-br/) of the [University of Campinas](https://www.unicamp.br/unicamp/) (UNICAMP). 
