@@ -158,6 +158,7 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
 {% endif %}
 
 <div class="col-sm-6 clearfix">
+  <blockquote>
   <img src="{{ site.url }}{{ site.baseurl }}/images/ltm_team/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>
@@ -198,6 +199,7 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
     <li> {{ member.education5 }} </li>
   {% endif %}
   </ul>
+  </blockquote> 
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
