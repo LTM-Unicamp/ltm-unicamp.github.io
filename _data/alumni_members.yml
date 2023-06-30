@@ -3,120 +3,62 @@
 #  info: 
 #  email: 
 #  Lattes: 
-#  number_educ: 0   # Pode ir de 1 até 5 com informações de onde fez graduação, mestrado e doutorado
-#  education1: 
-#  education2: 
-#  education3: 
-#  education4: 
-#  education5: 
-#  number_socials: 0   # Pode ser 1 para somente orcid ou 2 para orcid e linkedin   
-#  orcid:
-#  linkedin:
-#  CV:
 
+- name: Renato Picelli Sanches
+  photo: RenatoPicelli.png
+  info: Assistant Professor at the Polytechnic School of the University of São Paulo (EP-USP).
+  email: rpicelli@usp.br
+  lattes: http://lattes.cnpq.br/4825497211640979
+  highlight: 1
+  description: I work with parametric, shape and topology optimization of multiphysics and multiscale systems. The research line includes the design optimization of structures and fluids considering acoustic- and fluid-structure interaction, stress analysis and material design, with applications in offshore structures, energy conversion systems and CO2 mitigation. During my PhD and postdoctoral studies, I had the chance to take advantage of the CCES infrastructure and to interact with researchers from quite different disciplines than mine, such as physics, biology and chemistry. This certainly made me more aware of the broader community an engineer can work and research with. Besides the impeccable technical contributions, the CCES helped to educate me for my next jobs. With that, I was able to pursue and carry out a three-years postdoctoral research in the United Kingdom, returning to Brazil as a FAPESP Young Investigators Awardee and later becoming an Assistant Professor at EP-USP
+  
 - name: Rodrigo Batista Tomassini
   photo: Tommasini.jpg
   info: Former PhD student in the LTM
   email: rbtommasini@fem.unicamp.br
   lattes: http://lattes.cnpq.br/4585434417622335
-  number_educ: 0
-  education1:
-  education2:
-  education3:
-  education4:
-  education5:
-  number_socials: 0
-  orcid:
-  linkedin:
-
+  highlight: 0
+  
 - name: Rodrigo Lima Pereira
   photo: RodrigoPereira.jpg
   info: Former PhD student in the LTM
   email: rodrigolp17@gmail.com
   lattes: http://lattes.cnpq.br/8648415987292827
-  number_educ: 0
-  education1: 
-  education2: 
-  education3: 
-  education4: 
-  education5: 
-  number_socials: 2
-  orcid: https://orcid.org/0000-0002-0442-4666
-  linkedin: https://www.linkedin.com/in/rodrigo-lima-pereira-148286a2/
-
+  highlight: 0
+  
 - name: Evandro Souto Carobino
   photo: EvandroSolto.jpg
   info: Former MSc student in the LTM
   email: evandrocarobino@gmail.com
   lattes: http://lattes.cnpq.br/1726158134498397
-  number_educ: 0
-  education1: 
-  education2: 
-  education3: 
-  education4: 
-  education5: 
-  number_socials: 0
-  orcid:
-  linkedin:
+  highlight: 0
 
 - name: Luis Felipe de Oliveira Lima
   photo: LuisFelipe.jpg
   info: Former MSc student in the LTM
   email: limaoliveiraluis@gmail.com
   lattes: http://lattes.cnpq.br/2011541692022012
-  number_educ: 0
-  education1: 
-  education2: 
-  education3: 
-  education4: 
-  education5: 
-  number_socials: 0
-  orcid:
-  linkedin:
+  highlight: 0
 
 - name: Felipe Miranda Azevedo 
   photo: FelipeMiranda.jpg
   info: Former MSc student in the LTM
   email: faze.fma@gmail.com
   lattes: http://lattes.cnpq.br/0059967476882034
-  number_educ: 0
-  education1: 
-  education2: 
-  education3: 
-  education4: 
-  education5: 
-  number_socials: 0
-  orcid:
-  linkedin:
+  highlight: 0
 
 - name: Edgar Andres Patino Narino
   photo: EdgarPatino.jpg
   info: Former Postdoctoral Researcher in the LTM
   email: eapatinon@fem.unicamp.br
   lattes: http://lattes.cnpq.br/3312020252378132
-  number_educ: 0
-  education1: 
-  education2: 
-  education3: 
-  education4: 
-  education5: 
-  number_socials: 0
-  orcid:
-  linkedin:
+  highlight: 0
 
 - name: Débora Junqueira Fonseca
   photo: DeboraFonseca.jpg
   info: Former MSc student in the LTM
   email: deborafonseca@live.com
   lattes: http://lattes.cnpq.br/8083213601689126
-  number_educ: 0
-  education1: 
-  education2: 
-  education3: 
-  education4: 
-  education5: 
-  number_socials: 0
-  orcid:
-  linkedin:
+  highlight: 0
 
 

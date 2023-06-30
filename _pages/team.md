@@ -152,6 +152,61 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
 {% for member in site.data.alumni_members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
+{% if member.highlight == 1 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+ <div class="well">
+  <h4><b>{{ member.name }}</b></h4>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/ltm_team/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <p><em><strong>{{ member.info }}</strong></em></p>
+  <p><a href="{{ member.lattes }}">Lattes</a> | <{{ member.email }}> <br></p>
+  <p>{{ member.description }}</p>
+ </div>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endif %}
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+
+
+
+
+
+
+
+
+
+{% assign number_printed = 0 %}
+{% for member in site.data.alumni_members %}
+{% if member.highlight == 0 %}
+
+<p><strong>{{member.name}}</strong> | <em>{{member.info}}</em> | <a href="{{ member.lattes }}">Lattes</a> | <{{ member.email }}></p>
+
+{% endif %}
+{% endfor %}
+
+<p> &nbsp; </p>
+
+<!--
+{% assign number_printed = 0 %}
+{% for member in site.data.alumni_members %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -214,3 +269,4 @@ The LTM team is formed by undergraduate students, engineers (Post-docs, PhDs, MS
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+-->
