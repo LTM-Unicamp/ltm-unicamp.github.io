@@ -26,7 +26,7 @@ Our research is based on Structural Topology Optimization and Multiphysics/Multi
 ### Topology optimization of metamaterials
 [Lidy Marcela Anaya Jaimes](https://ltm-unicamp.github.io/team/): A metamaterial is an engineering material with properties that are not found in nature. This research focuses on the analysis and topology optimization of metamaterials using inverse homogenization and the BESO method to find the distribution of multiples materials within a cell to obtain a desired property considering a constant thermal load.
 
-<p align=center> Micro-Metamaterial and Deformed Structure <br />
+<p align=center> Gripper Mechanism Topology Optimization <br />
     <image src="{{ site.url }}{{ site.baseurl }}/images/ltm_research/micro_metamaterial.gif" alt="Spinners" width="200" /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
     <image src="{{ site.url }}{{ site.baseurl }}/images/ltm_research/micro_metamat_def.gif" alt="Spinners" width="300" /> 
 </p>
