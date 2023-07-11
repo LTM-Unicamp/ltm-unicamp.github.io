@@ -63,8 +63,9 @@ Our research is based on Structural Topology Optimization and Multiphysics/Multi
 ### Pressure-actuated Compliant Mechanisms Topology Optimization
 [Vitor Hugo Lopes Costa Lima](https://ltm-unicamp.github.io/team/): Topology optimization of Compliant Mechanisms considering fluid pressure as the input force. This rearch address a design dependent problem, where the load changes as the topology evolves. 
 
-<p style="text-align: center;">
-    <image src="{{ site.url }}{{ site.baseurl }}/images/ltm_research/MBBbeam5M.gif" alt="Spinners" width="500" />
+<p align=center> Micro-Metamaterial and Deformed Structure <br />
+    <image src="{{ site.url }}{{ site.baseurl }}/images/ltm_research/Pa-CM_gripper_evo.gif" alt="Spinners" width="200" /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <image src="{{ site.url }}{{ site.baseurl }}/images/ltm_research/Pa-CM_gripper_mov.gif" alt="Spinners" width="300" /> 
 </p>
 
 
